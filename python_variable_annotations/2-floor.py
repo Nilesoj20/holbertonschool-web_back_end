@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import math
 """ type-annotated function floor which takes a float n as argument """
+import math
 
 
 def floor(n: float) -> int:
@@ -9,5 +9,5 @@ def floor(n: float) -> int:
             n(float): floating point number
         Return:
             the floor of the float
-        """
+    """
     return math.floor(n)
