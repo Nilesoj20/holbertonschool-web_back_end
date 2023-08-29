@@ -4,7 +4,7 @@
 
 def concat(str1: str, str2: str) -> str:
     """ function returns a string
-        Args: 
+        Args:
             str1(str):  first string
             srt2(str): second string
         Return:
