@@ -2,9 +2,10 @@
 """ Async Generator """
 import asyncio
 import random
-import typing
+from typing import Generator
 
-async def async_generator() -> typing.Generator[float, None, None]:
+
+async def async_generator() -> Generator[float, None, None]:
     """ coroutine called async_generator that does not require arguments """
     for x in range(10):
         await asyncio.sleep(1)
