@@ -1,4 +1,4 @@
-/* promise by passing an object with 2 attributes*/
+/* promise by passing an object with 2 attributes */
 export default function getFullResponseFromAPI(success) {
   const pro = new Promise((resolve, reject) => {
     if (success) {
