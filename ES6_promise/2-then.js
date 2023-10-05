@@ -1,4 +1,4 @@
-/*The promise returns an object with status and body attributes*/
+/* The promise returns an object with status and body attributes */
 export default function handleResponseFromAPI(promise) {
   return promise
     .then(() => ({ status: 200, body: 'success' }))
