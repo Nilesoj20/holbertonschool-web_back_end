@@ -1,4 +1,4 @@
-/*function that receives 3 arguments and returns Promise with an array*/
+/* function that receives 3 arguments and returns Promise with an array */
 import signUpUser from './4-user-promise';
 import uploadPhoto from './5-photo-reject';
 
