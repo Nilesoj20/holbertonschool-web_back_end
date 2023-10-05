@@ -1,4 +1,4 @@
-/* promise by passing an object with 2 attributes*/
+/* promise by passing an object with 2 attributes */
 export default function getFullResponseFromAPI(success) {
   const pro = new Promise((resolve, reject) => {
     if (success) {
@@ -7,5 +7,5 @@ export default function getFullResponseFromAPI(success) {
       reject(new Error('The fake API is not working currently'));
     }
   });
-  return arr;
+  return pro;
 }
